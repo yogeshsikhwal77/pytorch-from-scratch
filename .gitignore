@@ -1,0 +1,80 @@
+# ==============================================================================
+# VIRTUAL ENVIRONMENTS & ENVIRONMENT VARIABLES
+# ==============================================================================
+# Excludes local environments to keep the repository lightweight
+.env
+.envrc
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pytorch_env/
+
+# ==============================================================================
+# PYTORCH / DEEP LEARNING SPECIFIC
+# ==============================================================================
+# Saved checkpoints, weights, and large model files
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# Datasets and raw data directories
+data/
+datasets/
+_data/
+
+# TensorBoard logs and experiment tracking
+lightning_logs/
+runs/
+.wandb/
+wandb/
+mlruns/
+
+# ==============================================================================
+# PYTHON ARTIFACTS & CACHING
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# JUPYTER NOTEBOOKS & IDEs
+# ==============================================================================
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code, PyCharm, and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
