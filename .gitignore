@@ -78,3 +78,13 @@ MANIFEST
 .idea/
 .DS_Store
 Thumbs.db
+
+# Ignore all CSV files in the entire project
+*.csv
+
+# Ignore CSV files only in a specific data folder
+data/*.csv
+
+# Ignore all CSV files but keep one specific, important file
+*.csv
+!important_dataset.csv
